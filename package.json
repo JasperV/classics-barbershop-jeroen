@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+  },
+  "devDependencies": {
+    "serve": "10.1.1",
     "website-scraper": "3.4.0"
   }
 }
