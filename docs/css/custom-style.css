@@ -131,6 +131,9 @@ i.box-circle-solid{
 	top:0;
 	z-index: -1;
 }
+.intro.bg-overlay:before{
+  background:rgba(0,0,0,0.4);
+}
 .bg-overlay-primary:before{
 	content:"";
 	background:rgba(49,31,10,0.5);
@@ -159,7 +162,7 @@ i.box-circle-solid{
 	background-size: cover;
 }
 .sec-bg-04{
-	background:url("../img/sec-bg-04.jpg");
+	background:url("../img/salon1.jpg");
 	background-repeat: no-repeat;
 	background-position: top left;
 	background-size: cover;
@@ -575,7 +578,18 @@ transition:1s ease-in;
 	z-index: 1;
 }
 .testimonial-section h2{
-	font-size: 3rem;
+  font-size: 3rem;
+  color: #fff;
+}
+.testimonial-content .lead,
+.testimonial-footer {
+  color: #fff;
+}
+.testimonial-content {
+  height: 220px;
+}
+.testimonial-content .mb-0 {
+  color: #B47F41;
 }
 .testimonial-section .single-testimonial .carousel-item {
     margin: 0 15%;
