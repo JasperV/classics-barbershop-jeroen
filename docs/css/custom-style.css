@@ -791,6 +791,9 @@ ul.social-box li {
 .contact-section .form-sec{
 	box-shadow: 0 0 30px rgba(0,0,0,1);
 }
+.contact-section .container.py-5 {
+  padding-top: 9rem!important;
+}
 /* ========== Copy Footer Styles ========== */
 .copy-footer{
 	float: left;
