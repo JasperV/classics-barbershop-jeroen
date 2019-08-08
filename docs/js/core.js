@@ -10,8 +10,6 @@ if (".loader".length) {
 /* Onpage linkng smooth effect */
 
 $('a[href^="#"]').on("click", function(event) {
-  console.warn($(this).attr("href"));
-
   var target = $($(this).attr("href"));
 
   if ($(this).attr("href") === "#carouselExampleCaptions") {
