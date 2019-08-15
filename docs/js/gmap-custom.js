@@ -1,9 +1,9 @@
 // Google Map
 function initMap() {
-  var location = { lat: 51.819197, lng: 4.6434331 };
-  var map = new google.maps.Map(document.getElementById("map"), {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    disableDefaultUI: true,
     zoom: 13,
-    center: location,
+    center: { lat: 51.819197, lng: 4.6434331 },
     styles: [
       { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
       { elementType: "labels.text.stroke", stylers: [{ color: "#242f3e" }] },

@@ -511,10 +511,10 @@ i.box-circle-solid{
 	text-transform: capitalize;
 }
 .member-box{
-  width:100%
+  width:100%;
   float:left;
   position:relative;
-  overflow:hidden
+  overflow:hidden;
 }
 .member-box:hover> img{
 transform: scale(1.05);
@@ -753,9 +753,6 @@ ul.social-box li {
     font-size: 2.5rem;
     font-weight: 700;
 }
-.price-section .price-block{
-
-}
 .price-section .currency{
 	font-size: 25px;
     vertical-align: super;
@@ -783,7 +780,7 @@ ul.social-box li {
 	height: 100vh;
 	width:100%;
 	position: absolute;
-	opacity: 0.3;
+	opacity: 0.6;
 }
 .contact-section .form-control:focus{
 	border-color: #B47F41;
@@ -869,12 +866,11 @@ ul.social-box li {
 	.widget.widget-counter .container{
 		width: 100%;
 	}
-	.contact-section #map {
-    	height: 400px
-	}
 	#navbarSupportedContent{
-	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0!important;
-	padding: 30px 0
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0!important;
+    padding: 30px 0;
+    top: 22px;
+    position: relative;
 	}
 	#navbarSupportedContent li{
 		text-align: center;
@@ -883,7 +879,33 @@ ul.social-box li {
 	    background-color:rgba(255,255,255,0.9);
 	    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 	    padding: 30px;
-	}
+  }
 
+  .top-nav.light-header {
+    height: 90px;
+  }
+
+  .copy-content-sec{
+    padding: 8rem 0;
+  }
+
+  .info-section {
+    padding: 8rem 0;
+  }
 }
 
+@media (max-width: 575px) {
+  .copy-content-sec{
+    padding:0;
+  }
+
+  #about > .container,
+  #about > .container > .row {
+    position: relative;
+    height: 100%;
+  }
+
+  .info-section .icon-box {
+    width: 70px !important;
+  }
+}

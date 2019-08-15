@@ -7,12 +7,9 @@
 	  <title>Classics Barbershop Jeroen</title>
     <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 </head>
-<!-- bootstrap Style CSS File -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<!-- Custom Style CSS File -->
 <link rel="stylesheet" type="text/css" href="css/custom-style.css">
 <link rel="stylesheet" type="text/css" href="css/loaders.css"/>
-<!-- Font-Awesome Style CSS File -->
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 <body>
 
@@ -28,8 +25,9 @@
 <!-- Top navigation -->
 <nav class="navbar navbar-expand-md fixed-top top-nav">
 	<div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><strong></strong></a>
-      <!-- TODO: logo -->
+      <a class="navbar-brand" href="/">
+        <img src="img/Classics-Barbershop-Jeroen-weblogo.png" height="50" />
+      </a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"><img src="img/icons/menu.png"></span>
 		  </button>
@@ -231,7 +229,10 @@
 		        <div class="testimonial-box text-center">
 					<div class="testimonial-content w-100 bg-faded">
 						<p class="mb-0"><i class="fa fa-quote-left fa-3x" aria-hidden="true"></i></p>
-						<p class="lead font-abril">Prima Barber: luistert naar je wensen, zegt wat hij doet en doet wat hij zegt! Lekker ongedwongen sfeer, neemt de tijd en heeft mijn baard weer prima verzorgd.</p>
+            <p class="lead font-abril">
+              Prima Barber: luistert naar je wensen, zegt wat hij doet en doet wat hij zegt!<br/>
+              Lekker ongedwongen sfeer, neemt de tijd en heeft mijn baard weer prima verzorgd.
+            </p>
 						<div class="testimonial-footer">
 							<h4 class="mt-2 mb-0 text-primary">rEmCO</h4>
 							<p>5 Sterren</p>
@@ -324,13 +325,14 @@
 <!-- footer Block -->
 <div class="copy-footer bg-primary py-2">
 	<div class="container text-center text-light">
-		&copy; <a href="" target="_blank"></a> <span id="year"></span>. Alle rechten voorbehouden. Met <i class="fa fa-heart"></i> gemaakt.
+		&copy; <a href="" target="_blank"></a> <span id="year">2019</span>. Alle rechten voorbehouden. Met <i class="fa fa-heart"></i> gemaakt.
 	</div>
 </div>
 
 <!-- Javascript Files  -->
-<script  src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
-<script src="js/bootstrap.min.js" ></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://unpkg.com/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script async defer src="https://maps.google.com/maps/api/js?key=AIzaSyAsYvigXFxPYDlB5QDEWTf6HcpDessww_M&callback=initMap"></script>
 <script src="js/gmap-custom.js" ></script>
 <script src="js/core.js"></script>
