@@ -623,7 +623,9 @@ transition:1s ease-in;
 	background-color: #b47f41;
 	color: #fff;
 }
-
+.testimonial-box {
+  margin-bottom: 30px;
+}
 
 /* ========== Footer Section ========== */
 .footer-section{
@@ -883,6 +885,7 @@ ul.social-box li {
 
   .top-nav.light-header {
     height: 90px;
+    padding-top: 20px;
   }
 
   .copy-content-sec{
@@ -905,7 +908,18 @@ ul.social-box li {
     height: 100%;
   }
 
+  #services.h-100,
+  #contact.h-100 {
+    height: auto!important;
+  }
+
+  .contact-section #map {
+    height: 100%;
+  }
+
   .info-section .icon-box {
     width: 70px !important;
   }
+
+
 }
