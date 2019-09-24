@@ -553,14 +553,7 @@
                   ></textarea>
                 </div>
                 <div class="form-group">
-                  <button
-                    style="float:right;"
-                    class="btn btn-primary btn-capsul px-4 g-recaptcha"
-                    data-sitekey="6LcV37kUAAAAAI1TLnykCL2LonSqp6hmjsKdaeyD"
-                    data-callback="onSubmit"
-                    data-badge="inline"
-                    data-size="0"
-                  >
+                  <button class="btn btn-primary btn-capsul px-4">
                     Verzenden
                   </button>
                 </div>
@@ -601,16 +594,6 @@
       defer
       src="https://maps.google.com/maps/api/js?key=AIzaSyAsYvigXFxPYDlB5QDEWTf6HcpDessww_M&callback=initMap"
     ></script>
-    <script
-      async
-      defer
-      src="https://www.google.com/recaptcha/api.js?hl=nl"
-    ></script>
-    <script>
-      function onSubmit(token) {
-        document.getElementById("mailform").submit();
-      }
-    </script>
     <script src="js/quicklink.umd.js"></script>
     <script>
       quicklink({ priority: true, origins: ["planetzelf.com"] });
