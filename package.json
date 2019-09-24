@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "quicklink": "1.0.1"
   },
   "devDependencies": {
     "serve": "10.1.1",

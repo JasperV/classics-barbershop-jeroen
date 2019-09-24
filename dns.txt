@@ -1,6 +1,8 @@
+ook dnssec settings cloudflare en vimexx fixen
+
 ;;
 ;; Domain:     classicsbarbershopjeroen.nl.
-;; Exported:   2019-09-23 13:53:52
+;; Exported:   2019-09-24 11:41:09
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +27,7 @@
 ;; Use at your own risk.
 
 ;; SOA Record
-classicsbarbershopjeroen.nl.	3600	IN	SOA	classicsbarbershopjeroen.nl. root.classicsbarbershopjeroen.nl. 2032091343 7200 3600 86400 3600
+classicsbarbershopjeroen.nl.	3600	IN	SOA	classicsbarbershopjeroen.nl. root.classicsbarbershopjeroen.nl. 2032099186 7200 3600 86400 3600
 
 ;; A Records
 classicsbarbershopjeroen.nl.	1	IN	A	185.199.108.153
@@ -45,6 +47,6 @@ classicsbarbershopjeroen.nl.	1	IN	MX	10 spamrelay.zxcs.nl.
 ;; TXT Records
 classicsbarbershopjeroen.nl.	1	IN	TXT	"google-site-verification=JF6okypwS6ml7G-XG7Ho4s5WUdwIHOhvopuLbnmmo98"
 classicsbarbershopjeroen.nl.	1	IN	TXT	"v=spf1 a mx ip4:185.104.29.32 ip6:2a06:2ec0:1:0:0:0:0:93 ~all"
-_dmarc.classicsbarbershopjeroen.nl.	1	IN	TXT	"v=DMARC1; p=none; sp=none;"
+_dmarc.classicsbarbershopjeroen.nl.	1	IN	TXT	"v=DMARC1; p=reject; adkim=r; aspf=r; pct=100; fo=1; rf=afrf; ruf=mailto:admin@classicsbarbershopjeroen.nl; rua=mailto:admin@classicsbarbershopjeroen.nl;"
 _github-challenge-classics-barbershop-jeroen.classicsbarbershopjeroen.nl.	1	IN	TXT	"b4383dfafc"
 x._domainkey.classicsbarbershopjeroen.nl.	1	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs/gm1vPeRBxZStN/8SXUN94RmZFKPf74TwcumJUxrmkQorsQldTYDasdyfHvsE6dXTTHXPXw7V0A+KLno55E2y6HV2jGGIeJlCjAWGDCqqeglIrx3mKL5vNGuHrLkvn2YvyWiHox+S+91FVt42ITDZfNKVWkVPIiiLItubiWRy0ZDu/XfXJ4jZd+XkWDbuPHw7qJMY78wefT1DQISsNfITdt54FqtM/EfRcVDW7xn67CpX+LudQ51Oj9/L3hq/QYp246AGCXSaF3/wQbyGG4xdfdpYqk0WwVsG+VnNMR/0E8AdBDI5/5ctD/2aXJSNmX+hjVC3OibvaQBR3iAMM5WwIDAQAB"
