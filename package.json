@@ -1,18 +1,18 @@
 {
-  "name": "classics-barbershop-jeroen",
+  "name": "classicsbarbershopjeroen.nl",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "quicklink": "1.0.1"
   },
   "devDependencies": {
-    "serve": "10.1.1",
-    "website-scraper": "3.4.0"
+    "npm-check": "5.9.0",
+    "serve": "11.2.0",
+    "website-scraper": "4.2.0"
+  },
+  "license": "ISC",
+  "scripts": {
+    "serve": "serve ./docs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "npm-check -uE && fixpack"
   }
 }
