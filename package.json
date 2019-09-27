@@ -11,7 +11,7 @@
   },
   "license": "ISC",
   "scripts": {
-    "serve": "serve ./docs",
+    "start": "serve ./docs",
     "test": "echo \"Error: no test specified\" && exit 1",
     "update": "npm-check -uE && fixpack"
   }
