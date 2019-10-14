@@ -807,6 +807,12 @@ ul.social-box li {
 	text-decoration: underline;
 }
 
+@media (min-width: 992px) {
+  #privacy .col-lg-5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
 
 /* ========== Responsive Stylings ========== */
 @media (max-width: 991px){
