@@ -8,7 +8,9 @@ forward url - 302
 https://classicsbarbershopjeroen.nl
 - github org + config
 - dns
-spf, dkim, dnssec, dmarc
+spf, dkim, dnssec
+- mxtoolbox account
+dmarc
 - google my business
 - google search console
 sitemap
@@ -26,22 +28,35 @@ twitter card
 
 
 
-email nieuw ww vragen en instellen
 contact form -> privacy statement
+https://jonassebastianohlsson.com/criticalpathcssgenerator/
 source code -> pug, stylus, github root/src optimize static site building -> webp images etc...
 https://github.com/ericalli/static-site-boilerplate
 https://github.com/voorhoede/front-end-tooling-recipes/tree/master/rollup-bundle-and-watch
 https://github.com/voorhoede/front-end-tooling-recipes/tree/master/revision-static-assets
+https://github.com/addyosmani/critical
+https://github.com/pocketjoso/penthouse
+auto reload and other development tools setup
 cms -> netlify, eleventy -> koppelen aan dns cache/sitemap etc... -> koppelen/tonen allerlei analytics en tests etc...
 switch to netlify entirely - ook dns?
 pwa - workbox - with quicklink and guess.js
+- https://levelup.gitconnected.com/build-a-pwa-using-only-vanilla-javascript-bdf1eee6f37a
 optimize with webpack or similar
 analytics -> cookie melding
 lighthouse, pagespeed test
+https://mxtoolbox.com/Pro/wf/ProDomainHealth.aspx#/
+https://webhint.io/scanner/fb91c7f3-422b-4359-b154-0d0af6e2ae0f
+https://testmysite.io/5d95dc51b64f14f2b04e6c87/classicsbarbershopjeroen.nl
 alle issues fixen incl. responsive
 https://learndigital.withgoogle.com/digitalewerkplaats/course/digital-marketing
 https://buffer.com/library/free-seo-tools
 http://tools.seobook.com/
+internet.nl
+tlsa, dane
+hsts cloudflare
+https://hstspreload.org/?domain=classicsbarbershopjeroen.nl
+bimi record - svg logo = https://easydmarc.com/tools/bimi-record-generator
+nice readme.md
 chrome portal api
 recaptcha -> server side verification
 eigen webmail forward ding -> jumprock
