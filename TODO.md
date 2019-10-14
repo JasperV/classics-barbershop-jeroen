@@ -25,20 +25,19 @@ twitter card
 - w3 html validator
 - https://github.com/GoogleChromeLabs/quicklink
 - instant.page
+- https://github.com/addyosmani/critical
+https://www.filamentgroup.com/lab/load-css-simpler/
 
 
 
-https://jonassebastianohlsson.com/criticalpathcssgenerator/
 source code -> pug, stylus, github root/src optimize static site building -> webp images etc...
 https://github.com/ericalli/static-site-boilerplate
 https://github.com/voorhoede/front-end-tooling-recipes/tree/master/rollup-bundle-and-watch
 https://github.com/voorhoede/front-end-tooling-recipes/tree/master/revision-static-assets
-https://github.com/addyosmani/critical
-https://github.com/pocketjoso/penthouse
 auto reload and other development tools setup
 cms -> netlify, eleventy -> koppelen aan dns cache/sitemap etc... -> koppelen/tonen allerlei analytics en tests etc...
 switch to netlify entirely - ook dns?
-pwa - workbox - with quicklink and guess.js
+pwa - workbox - with quicklink
 - https://levelup.gitconnected.com/build-a-pwa-using-only-vanilla-javascript-bdf1eee6f37a
 optimize with webpack or similar
 analytics -> cookie melding
