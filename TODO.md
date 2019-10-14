@@ -28,7 +28,6 @@ twitter card
 
 
 
-contact form -> privacy statement
 https://jonassebastianohlsson.com/criticalpathcssgenerator/
 source code -> pug, stylus, github root/src optimize static site building -> webp images etc...
 https://github.com/ericalli/static-site-boilerplate
