@@ -36,6 +36,7 @@ https://github.com/voorhoede/front-end-tooling-recipes/tree/master/rollup-bundle
 https://github.com/voorhoede/front-end-tooling-recipes/tree/master/revision-static-assets
 auto reload and other development tools setup
 cms -> netlify, eleventy -> koppelen aan dns cache/sitemap etc... -> koppelen/tonen allerlei analytics en tests etc...
+https://testmysite.io/
 switch to netlify entirely - ook dns?
 pwa - workbox - with quicklink
 - https://levelup.gitconnected.com/build-a-pwa-using-only-vanilla-javascript-bdf1eee6f37a
@@ -45,10 +46,18 @@ lighthouse, pagespeed test
 https://mxtoolbox.com/Pro/wf/ProDomainHealth.aspx#/
 https://webhint.io/scanner/fb91c7f3-422b-4359-b154-0d0af6e2ae0f
 https://testmysite.io/5d95dc51b64f14f2b04e6c87/classicsbarbershopjeroen.nl
-alle issues fixen incl. responsive
+https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fclassicsbarbershopjeroen.nl
+https://tools.pingdom.com/
+https://www.webpagetest.org
+https://tools.keycdn.com/speed
+https://gtmetrix.com/reports/classicsbarbershopjeroen.nl/
+https://search.google.com/test/mobile-friendly
+alle issues fixen incl. responsive - menu auto hide on click
+300 ms delay remove?
 https://learndigital.withgoogle.com/digitalewerkplaats/course/digital-marketing
 https://buffer.com/library/free-seo-tools
 http://tools.seobook.com/
+https://smallseotools.com/
 internet.nl
 tlsa, dane
 hsts cloudflare
