@@ -1,6 +1,4 @@
-
-- cbj mail jasperv.nl
-admin -> jasperv.nl
+DONE:
 - cloudflare
 page rules:
 *www.classicsbarbershopjeroen.nl/
@@ -8,16 +6,15 @@ forward url - 302
 https://classicsbarbershopjeroen.nl
 - github org + config
 - dns
-spf, dkim, dnssec
-- mxtoolbox account
-dmarc
+spf, dkim, dnssec, dmarc
 - google my business
 - google search console
 sitemap
 robots.txt
 - email
-admin
-info
+cbj@jasperv
+admin -> jasperv
+info@
 - rich snippets
 google rich snippets
 facebook open graph
@@ -27,25 +24,34 @@ twitter card
 - instant.page
 - https://github.com/addyosmani/critical
 https://www.filamentgroup.com/lab/load-css-simpler/
+- uptimerobot monitor
 
 
-
+https://web.dev/external-anchors-use-rel-noopener/ -> en voor afspraak maken helemaal niet target=blank
+google search console
+https://www.bingplaces.com/
+https://twitter.com/addyosmani/status/1203762151279644673 -> webp ook
+loader verwijderen (of alle na pageload) - waarom anders optimaliseren?
 source code -> pug, stylus, github root/src optimize static site building -> webp images etc...
 https://github.com/ericalli/static-site-boilerplate
 https://github.com/voorhoede/front-end-tooling-recipes/tree/master/rollup-bundle-and-watch
 https://github.com/voorhoede/front-end-tooling-recipes/tree/master/revision-static-assets
 auto reload and other development tools setup
-cms -> netlify, eleventy -> koppelen aan dns cache/sitemap etc... -> koppelen/tonen allerlei analytics en tests etc...
+https://stevepolito.design/blog/configure-cloudflare-dns-to-work-with-netlify/
+https://codewithhugo.com/enable-cdn-netlify/
+https://developer.okta.com/blog/2019/04/11/site-security-cloudflare-netlify
+cms -> netlify, eleventy -> koppelen aan dns cache/sitemap etc... -> koppelen/tonen allerlei analytics en tests - uptime etc.. alle externe services etc...
 https://testmysite.io/
 switch to netlify entirely - ook dns?
 pwa - workbox - with quicklink
 - https://levelup.gitconnected.com/build-a-pwa-using-only-vanilla-javascript-bdf1eee6f37a
 optimize with webpack or similar
 analytics -> cookie melding
-lighthouse, pagespeed test
+https://philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build/
+lighthouse (ci), pagespeed test
 https://mxtoolbox.com/Pro/wf/ProDomainHealth.aspx#/
-https://webhint.io/scanner/fb91c7f3-422b-4359-b154-0d0af6e2ae0f
-https://testmysite.io/5d95dc51b64f14f2b04e6c87/classicsbarbershopjeroen.nl
+https://webhint.io/scanner/
+https://testmysite.io/
 https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fclassicsbarbershopjeroen.nl
 https://tools.pingdom.com/
 https://www.webpagetest.org
@@ -55,6 +61,7 @@ https://search.google.com/test/mobile-friendly
 alle issues fixen incl. responsive - menu auto hide on click
 300 ms delay remove?
 https://learndigital.withgoogle.com/digitalewerkplaats/course/digital-marketing
+https://marketingplatform.google.com/about/small-business/
 https://buffer.com/library/free-seo-tools
 http://tools.seobook.com/
 https://smallseotools.com/
