@@ -769,6 +769,11 @@ ul.social-box li {
 	font-size: 15px;
 }
 
+#price iframe {
+  border: none;
+  width: 100%;
+}
+
 /* ========== Contact Section ========== */
 .contact-section{
 	float: left;
