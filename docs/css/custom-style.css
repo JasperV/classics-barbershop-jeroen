@@ -930,3 +930,9 @@ ul.social-box li {
 
 
 }
+
+.alert {
+  top: 100px;
+  width: 60%;
+  margin: 0 auto;
+}
