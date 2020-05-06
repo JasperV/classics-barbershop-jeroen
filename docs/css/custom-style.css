@@ -936,3 +936,7 @@ ul.social-box li {
   width: 60%;
   margin: 0 auto;
 }
+
+.alert p.mb-0 {
+  margin-bottom: 10px !important;
+}
