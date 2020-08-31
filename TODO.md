@@ -30,6 +30,7 @@ https://www.filamentgroup.com/lab/load-css-simpler/
 https://web.dev/external-anchors-use-rel-noopener/ -> en voor afspraak maken helemaal niet target=blank
 google search console
 https://www.bingplaces.com/
+https://9elements.com/seo-cheat-sheet/
 https://twitter.com/addyosmani/status/1203762151279644673 -> webp ook
 loader verwijderen (of alle na pageload) - waarom anders optimaliseren?
 source code -> pug, stylus, github root/src optimize static site building -> webp images etc...
